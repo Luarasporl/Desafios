@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+}
+
+@font-face {
+    font-family:'titulo' ;
+    src: url('BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'conteudo';
+    src: url('CarterOne-Regular.ttf');
+}
+
+:root{
+--fonte-titulo: 'titulo';
+--fonte-conteudo: 'conteudo'
+}
+
+header{
+background-color: black;
+height: 200px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    font-family:'titulo';
+    font-size: 70px;
+}
+
+header p{
+ color: white;
+ text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#imagem1{
+background-image: url('background001.jpg');
+background-attachment: fixed;
+background-position: center center;
+padding: 30px;
+}
+
+#imagem1 p{
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#imagem2{
+background-image: url('background002.jpg');
+background-attachment: fixed;
+padding: 20px;
+}
+
+#imagem2 p{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.521);
+  border-radius: 10px;
+  color: white;
+}
+
+main p{
+    font-size: 30px;
+    font-family: var(--fonte-conteudo);
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
