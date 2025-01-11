@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px
+}
+
+img{
+    width: 100vw;
+}
+
+a{
+padding: 20px;
+background-color: red;
+margin: auto;
+display: block;
+text-align: center;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
